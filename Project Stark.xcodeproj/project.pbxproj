@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC54FA371C1F7B1100C4BCEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */; };
+		AC54FA391C1F7B1100C4BCEE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC54FA381C1F7B1100C4BCEE /* GameScene.sks */; };
+		AC54FA3B1C1F7B1100C4BCEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */; };
+		AC54FA3D1C1F7B1100C4BCEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA3C1C1F7B1100C4BCEE /* GameViewController.swift */; };
+		AC54FA401C1F7B1100C4BCEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC54FA3E1C1F7B1100C4BCEE /* Main.storyboard */; };
+		AC54FA421C1F7B1100C4BCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC54FA411C1F7B1100C4BCEE /* Assets.xcassets */; };
+		AC54FA451C1F7B1100C4BCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC54FA431C1F7B1100C4BCEE /* LaunchScreen.storyboard */; };
+		AC54FA501C1F7B1200C4BCEE /* Project_StarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA4F1C1F7B1200C4BCEE /* Project_StarkTests.swift */; };
+		AC54FA5B1C1F7B1200C4BCEE /* Project_StarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA5A1C1F7B1200C4BCEE /* Project_StarkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC54FA4C1C1F7B1200C4BCEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC54FA2B1C1F7B1100C4BCEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC54FA321C1F7B1100C4BCEE;
+			remoteInfo = "Project Stark";
+		};
+		AC54FA571C1F7B1200C4BCEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC54FA2B1C1F7B1100C4BCEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC54FA321C1F7B1100C4BCEE;
+			remoteInfo = "Project Stark";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC54FA331C1F7B1100C4BCEE /* Project Stark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Stark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC54FA381C1F7B1100C4BCEE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AC54FA3C1C1F7B1100C4BCEE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AC54FA3F1C1F7B1100C4BCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC54FA411C1F7B1100C4BCEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC54FA441C1F7B1100C4BCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC54FA461C1F7B1100C4BCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC54FA4B1C1F7B1200C4BCEE /* Project StarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project StarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC54FA4F1C1F7B1200C4BCEE /* Project_StarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_StarkTests.swift; sourceTree = "<group>"; };
+		AC54FA511C1F7B1200C4BCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC54FA561C1F7B1200C4BCEE /* Project StarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project StarkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC54FA5A1C1F7B1200C4BCEE /* Project_StarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_StarkUITests.swift; sourceTree = "<group>"; };
+		AC54FA5C1C1F7B1200C4BCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC54FA301C1F7B1100C4BCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC54FA481C1F7B1200C4BCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC54FA531C1F7B1200C4BCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC54FA2A1C1F7B1100C4BCEE = {
+			isa = PBXGroup;
+			children = (
+				AC54FA351C1F7B1100C4BCEE /* Project Stark */,
+				AC54FA4E1C1F7B1200C4BCEE /* Project StarkTests */,
+				AC54FA591C1F7B1200C4BCEE /* Project StarkUITests */,
+				AC54FA341C1F7B1100C4BCEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC54FA341C1F7B1100C4BCEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA331C1F7B1100C4BCEE /* Project Stark.app */,
+				AC54FA4B1C1F7B1200C4BCEE /* Project StarkTests.xctest */,
+				AC54FA561C1F7B1200C4BCEE /* Project StarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC54FA351C1F7B1100C4BCEE /* Project Stark */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */,
+				AC54FA381C1F7B1100C4BCEE /* GameScene.sks */,
+				AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */,
+				AC54FA3C1C1F7B1100C4BCEE /* GameViewController.swift */,
+				AC54FA3E1C1F7B1100C4BCEE /* Main.storyboard */,
+				AC54FA411C1F7B1100C4BCEE /* Assets.xcassets */,
+				AC54FA431C1F7B1100C4BCEE /* LaunchScreen.storyboard */,
+				AC54FA461C1F7B1100C4BCEE /* Info.plist */,
+			);
+			path = "Project Stark";
+			sourceTree = "<group>";
+		};
+		AC54FA4E1C1F7B1200C4BCEE /* Project StarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA4F1C1F7B1200C4BCEE /* Project_StarkTests.swift */,
+				AC54FA511C1F7B1200C4BCEE /* Info.plist */,
+			);
+			path = "Project StarkTests";
+			sourceTree = "<group>";
+		};
+		AC54FA591C1F7B1200C4BCEE /* Project StarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA5A1C1F7B1200C4BCEE /* Project_StarkUITests.swift */,
+				AC54FA5C1C1F7B1200C4BCEE /* Info.plist */,
+			);
+			path = "Project StarkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC54FA321C1F7B1100C4BCEE /* Project Stark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC54FA5F1C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project Stark" */;
+			buildPhases = (
+				AC54FA2F1C1F7B1100C4BCEE /* Sources */,
+				AC54FA301C1F7B1100C4BCEE /* Frameworks */,
+				AC54FA311C1F7B1100C4BCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Stark";
+			productName = "Project Stark";
+			productReference = AC54FA331C1F7B1100C4BCEE /* Project Stark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC54FA4A1C1F7B1200C4BCEE /* Project StarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC54FA621C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project StarkTests" */;
+			buildPhases = (
+				AC54FA471C1F7B1200C4BCEE /* Sources */,
+				AC54FA481C1F7B1200C4BCEE /* Frameworks */,
+				AC54FA491C1F7B1200C4BCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC54FA4D1C1F7B1200C4BCEE /* PBXTargetDependency */,
+			);
+			name = "Project StarkTests";
+			productName = "Project StarkTests";
+			productReference = AC54FA4B1C1F7B1200C4BCEE /* Project StarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC54FA551C1F7B1200C4BCEE /* Project StarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC54FA651C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project StarkUITests" */;
+			buildPhases = (
+				AC54FA521C1F7B1200C4BCEE /* Sources */,
+				AC54FA531C1F7B1200C4BCEE /* Frameworks */,
+				AC54FA541C1F7B1200C4BCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC54FA581C1F7B1200C4BCEE /* PBXTargetDependency */,
+			);
+			name = "Project StarkUITests";
+			productName = "Project StarkUITests";
+			productReference = AC54FA561C1F7B1200C4BCEE /* Project StarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC54FA2B1C1F7B1100C4BCEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dark Vault Studios";
+				TargetAttributes = {
+					AC54FA321C1F7B1100C4BCEE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AC54FA4A1C1F7B1200C4BCEE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AC54FA321C1F7B1100C4BCEE;
+					};
+					AC54FA551C1F7B1200C4BCEE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AC54FA321C1F7B1100C4BCEE;
+					};
+				};
+			};
+			buildConfigurationList = AC54FA2E1C1F7B1100C4BCEE /* Build configuration list for PBXProject "Project Stark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC54FA2A1C1F7B1100C4BCEE;
+			productRefGroup = AC54FA341C1F7B1100C4BCEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC54FA321C1F7B1100C4BCEE /* Project Stark */,
+				AC54FA4A1C1F7B1200C4BCEE /* Project StarkTests */,
+				AC54FA551C1F7B1200C4BCEE /* Project StarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC54FA311C1F7B1100C4BCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC54FA391C1F7B1100C4BCEE /* GameScene.sks in Resources */,
+				AC54FA451C1F7B1100C4BCEE /* LaunchScreen.storyboard in Resources */,
+				AC54FA421C1F7B1100C4BCEE /* Assets.xcassets in Resources */,
+				AC54FA401C1F7B1100C4BCEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC54FA491C1F7B1200C4BCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC54FA541C1F7B1200C4BCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC54FA2F1C1F7B1100C4BCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC54FA3B1C1F7B1100C4BCEE /* GameScene.swift in Sources */,
+				AC54FA3D1C1F7B1100C4BCEE /* GameViewController.swift in Sources */,
+				AC54FA371C1F7B1100C4BCEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC54FA471C1F7B1200C4BCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC54FA501C1F7B1200C4BCEE /* Project_StarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC54FA521C1F7B1200C4BCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC54FA5B1C1F7B1200C4BCEE /* Project_StarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC54FA4D1C1F7B1200C4BCEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC54FA321C1F7B1100C4BCEE /* Project Stark */;
+			targetProxy = AC54FA4C1C1F7B1200C4BCEE /* PBXContainerItemProxy */;
+		};
+		AC54FA581C1F7B1200C4BCEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC54FA321C1F7B1100C4BCEE /* Project Stark */;
+			targetProxy = AC54FA571C1F7B1200C4BCEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC54FA3E1C1F7B1100C4BCEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC54FA3F1C1F7B1100C4BCEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC54FA431C1F7B1100C4BCEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC54FA441C1F7B1100C4BCEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC54FA5D1C1F7B1200C4BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC54FA5E1C1F7B1200C4BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC54FA601C1F7B1200C4BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project Stark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkvaultstudios.Project-Stark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC54FA611C1F7B1200C4BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project Stark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkvaultstudios.Project-Stark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC54FA631C1F7B1200C4BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Project StarkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkvaultstudios.Project-StarkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Stark.app/Project Stark";
+			};
+			name = Debug;
+		};
+		AC54FA641C1F7B1200C4BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project StarkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkvaultstudios.Project-StarkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Stark.app/Project Stark";
+			};
+			name = Release;
+		};
+		AC54FA661C1F7B1200C4BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Project StarkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkvaultstudios.Project-StarkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project Stark";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC54FA671C1F7B1200C4BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project StarkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkvaultstudios.Project-StarkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project Stark";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC54FA2E1C1F7B1100C4BCEE /* Build configuration list for PBXProject "Project Stark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC54FA5D1C1F7B1200C4BCEE /* Debug */,
+				AC54FA5E1C1F7B1200C4BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC54FA5F1C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project Stark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC54FA601C1F7B1200C4BCEE /* Debug */,
+				AC54FA611C1F7B1200C4BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC54FA621C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project StarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC54FA631C1F7B1200C4BCEE /* Debug */,
+				AC54FA641C1F7B1200C4BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC54FA651C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project StarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC54FA661C1F7B1200C4BCEE /* Debug */,
+				AC54FA671C1F7B1200C4BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC54FA2B1C1F7B1100C4BCEE /* Project object */;
+}
