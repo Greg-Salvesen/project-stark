@@ -12,7 +12,10 @@ class GameScene: SKScene {
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
+        let newScene = TapGame(size: view.bounds.size, curLevel: 1)
+        newScene.scaleMode = .AspectFill
         
+        view.presentScene(newScene)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

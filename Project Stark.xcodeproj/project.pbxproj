@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC29FDD61C20885300A777FB /* mallet.png in Resources */ = {isa = PBXBuildFile; fileRef = AC29FDD51C20885300A777FB /* mallet.png */; };
 		AC54FA371C1F7B1100C4BCEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */; };
 		AC54FA3B1C1F7B1100C4BCEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */; };
 		AC54FA3D1C1F7B1100C4BCEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA3C1C1F7B1100C4BCEE /* GameViewController.swift */; };
@@ -15,6 +16,10 @@
 		AC54FA451C1F7B1100C4BCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC54FA431C1F7B1100C4BCEE /* LaunchScreen.storyboard */; };
 		AC54FA501C1F7B1200C4BCEE /* Project_StarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA4F1C1F7B1200C4BCEE /* Project_StarkTests.swift */; };
 		AC54FA5B1C1F7B1200C4BCEE /* Project_StarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA5A1C1F7B1200C4BCEE /* Project_StarkUITests.swift */; };
+		AC54FA691C1FE5C400C4BCEE /* MiniGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA681C1FE5C400C4BCEE /* MiniGames.swift */; };
+		AC54FA6C1C2053D100C4BCEE /* TapGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA6B1C2053D100C4BCEE /* TapGame.swift */; };
+		AC54FA6F1C20545100C4BCEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA6E1C20545100C4BCEE /* Constants.swift */; };
+		AC54FA721C20738500C4BCEE /* TapMallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA711C20738500C4BCEE /* TapMallet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC29FDD51C20885300A777FB /* mallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mallet.png; sourceTree = "<group>"; };
 		AC54FA331C1F7B1100C4BCEE /* Project Stark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Stark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		AC54FA561C1F7B1200C4BCEE /* Project StarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project StarkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54FA5A1C1F7B1200C4BCEE /* Project_StarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_StarkUITests.swift; sourceTree = "<group>"; };
 		AC54FA5C1C1F7B1200C4BCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC54FA681C1FE5C400C4BCEE /* MiniGames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGames.swift; sourceTree = "<group>"; };
+		AC54FA6B1C2053D100C4BCEE /* TapGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGame.swift; sourceTree = "<group>"; };
+		AC54FA6E1C20545100C4BCEE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC54FA711C20738500C4BCEE /* TapMallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapMallet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC29FDD31C20883900A777FB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC29FDD41C20883F00A777FB /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AC29FDD41C20883F00A777FB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC29FDD51C20885300A777FB /* mallet.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		AC54FA2A1C1F7B1100C4BCEE = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +125,9 @@
 		AC54FA351C1F7B1100C4BCEE /* Project Stark */ = {
 			isa = PBXGroup;
 			children = (
+				AC29FDD31C20883900A777FB /* Assets */,
+				AC54FA6D1C20544200C4BCEE /* Constants */,
+				AC54FA6A1C1FE5E400C4BCEE /* MiniGames */,
 				AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */,
 				AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */,
 				AC54FA3C1C1F7B1100C4BCEE /* GameViewController.swift */,
@@ -126,6 +155,32 @@
 				AC54FA5C1C1F7B1200C4BCEE /* Info.plist */,
 			);
 			path = "Project StarkUITests";
+			sourceTree = "<group>";
+		};
+		AC54FA6A1C1FE5E400C4BCEE /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA701C20735F00C4BCEE /* Tap Game */,
+				AC54FA681C1FE5C400C4BCEE /* MiniGames.swift */,
+			);
+			name = MiniGames;
+			sourceTree = "<group>";
+		};
+		AC54FA6D1C20544200C4BCEE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA6E1C20545100C4BCEE /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		AC54FA701C20735F00C4BCEE /* Tap Game */ = {
+			isa = PBXGroup;
+			children = (
+				AC54FA6B1C2053D100C4BCEE /* TapGame.swift */,
+				AC54FA711C20738500C4BCEE /* TapMallet.swift */,
+			);
+			name = "Tap Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC29FDD61C20885300A777FB /* mallet.png in Resources */,
 				AC54FA451C1F7B1100C4BCEE /* LaunchScreen.storyboard in Resources */,
 				AC54FA421C1F7B1100C4BCEE /* Assets.xcassets in Resources */,
 				AC54FA401C1F7B1100C4BCEE /* Main.storyboard in Resources */,
@@ -259,9 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC54FA691C1FE5C400C4BCEE /* MiniGames.swift in Sources */,
+				AC54FA6C1C2053D100C4BCEE /* TapGame.swift in Sources */,
 				AC54FA3B1C1F7B1100C4BCEE /* GameScene.swift in Sources */,
 				AC54FA3D1C1F7B1100C4BCEE /* GameViewController.swift in Sources */,
 				AC54FA371C1F7B1100C4BCEE /* AppDelegate.swift in Sources */,
+				AC54FA721C20738500C4BCEE /* TapMallet.swift in Sources */,
+				AC54FA6F1C20545100C4BCEE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +548,7 @@
 				AC54FA611C1F7B1200C4BCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC54FA621C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project StarkTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +557,7 @@
 				AC54FA641C1F7B1200C4BCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC54FA651C1F7B1200C4BCEE /* Build configuration list for PBXNativeTarget "Project StarkUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +566,7 @@
 				AC54FA671C1F7B1200C4BCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
