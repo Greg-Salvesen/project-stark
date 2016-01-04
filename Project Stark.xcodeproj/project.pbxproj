@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0C3FD01C21E26400361306 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0C3FCA1C21E26400361306 /* button1.png */; };
+		AC0C3FD51C21E26400361306 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0C3FCF1C21E26400361306 /* button2.png */; };
 		AC29FDD61C20885300A777FB /* mallet.png in Resources */ = {isa = PBXBuildFile; fileRef = AC29FDD51C20885300A777FB /* mallet.png */; };
+		AC29FDDA1C20952900A777FB /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC29FDD91C20952900A777FB /* TapButton.swift */; };
+		AC29FDDC1C2095DA00A777FB /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = AC29FDDB1C2095DA00A777FB /* buttons.png */; };
 		AC54FA371C1F7B1100C4BCEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */; };
 		AC54FA3B1C1F7B1100C4BCEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */; };
 		AC54FA3D1C1F7B1100C4BCEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FA3C1C1F7B1100C4BCEE /* GameViewController.swift */; };
@@ -40,7 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0C3FCA1C21E26400361306 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		AC0C3FCF1C21E26400361306 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		AC29FDD51C20885300A777FB /* mallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mallet.png; sourceTree = "<group>"; };
+		AC29FDD91C20952900A777FB /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
+		AC29FDDB1C2095DA00A777FB /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
 		AC54FA331C1F7B1100C4BCEE /* Project Stark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Stark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54FA361C1F7B1100C4BCEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC54FA3A1C1F7B1100C4BCEE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -97,6 +105,9 @@
 		AC29FDD41C20883F00A777FB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AC0C3FCA1C21E26400361306 /* button1.png */,
+				AC0C3FCF1C21E26400361306 /* button2.png */,
+				AC29FDDB1C2095DA00A777FB /* buttons.png */,
 				AC29FDD51C20885300A777FB /* mallet.png */,
 			);
 			name = Images;
@@ -179,6 +190,7 @@
 			children = (
 				AC54FA6B1C2053D100C4BCEE /* TapGame.swift */,
 				AC54FA711C20738500C4BCEE /* TapMallet.swift */,
+				AC29FDD91C20952900A777FB /* TapButton.swift */,
 			);
 			name = "Tap Game";
 			sourceTree = "<group>";
@@ -289,8 +301,11 @@
 			files = (
 				AC29FDD61C20885300A777FB /* mallet.png in Resources */,
 				AC54FA451C1F7B1100C4BCEE /* LaunchScreen.storyboard in Resources */,
+				AC29FDDC1C2095DA00A777FB /* buttons.png in Resources */,
+				AC0C3FD51C21E26400361306 /* button2.png in Resources */,
 				AC54FA421C1F7B1100C4BCEE /* Assets.xcassets in Resources */,
 				AC54FA401C1F7B1100C4BCEE /* Main.storyboard in Resources */,
+				AC0C3FD01C21E26400361306 /* button1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +333,7 @@
 				AC54FA691C1FE5C400C4BCEE /* MiniGames.swift in Sources */,
 				AC54FA6C1C2053D100C4BCEE /* TapGame.swift in Sources */,
 				AC54FA3B1C1F7B1100C4BCEE /* GameScene.swift in Sources */,
+				AC29FDDA1C20952900A777FB /* TapButton.swift in Sources */,
 				AC54FA3D1C1F7B1100C4BCEE /* GameViewController.swift in Sources */,
 				AC54FA371C1F7B1100C4BCEE /* AppDelegate.swift in Sources */,
 				AC54FA721C20738500C4BCEE /* TapMallet.swift in Sources */,

@@ -14,3 +14,4 @@ let kSecondsPerGame: Int = 4
 
 //Tap Game Variables
 let kTapsRequired: [Int] = [10, 15, 20]
+let kButtonImages: [String] = ["button1.png", "button2.png"]

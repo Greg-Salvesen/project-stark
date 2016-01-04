@@ -13,6 +13,7 @@ class TapGame: MiniGames {
     
     var numTaps: Int = 0
     var mallet: TapMallet!
+    var button: TapButton!
     
     override init(size: CGSize, curLevel: Int) {
         super.init(size: size, curLevel: curLevel)
@@ -27,8 +28,15 @@ class TapGame: MiniGames {
         
         // Add Mallet
         mallet = TapMallet(size: CGSizeMake(120, 120))
-        mallet.position = view.center
+        mallet.position = CGPointMake(view.center.x + 70, view.center.y + 65)
+        mallet.anchorPoint = CGPoint(x: 0.9, y: 0.9)
         addChild(mallet)
+        
+        // Add Button
+        button = TapButton(size: CGSizeMake(52, 20))
+        button.position = CGPointMake(view.center.x - 33, view.center.y - 45)
+        button.zPosition = -1
+        addChild(button)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -41,7 +49,14 @@ class TapGame: MiniGames {
         } else if(numTaps == tapsRequired) {
             mallet.rotate(mallet.finishedDegree / CGFloat(tapsRequired))
             print("You did it!")
-            mallet.rotate(-mallet.finishedDegree - 45)
+            let degrees = -mallet.finishedDegree - 45
+            let finishRotate = SKAction.rotateByAngle((CGFloat(-M_PI) / 180.0) * degrees, duration: 0.1)
+            mallet.runAction(finishRotate, completion: { () -> Void in
+                for var i = 0; i < kButtonImages.count; i++ {
+                    self.button.showNextAnim()
+                }
+            })
+            
         }
     }
     
